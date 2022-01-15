@@ -24,4 +24,7 @@ public class Car {
         System.out.println("Max Speed : " + maxSpeed);
         System.out.println("Color : " + color);
     }
+
+    //Test
 }
+git diff
