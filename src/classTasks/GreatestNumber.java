@@ -1,3 +1,5 @@
+package classTasks;
+
 import java.util.Scanner;
 
 public class GreatestNumber {
