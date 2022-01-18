@@ -9,7 +9,7 @@ public class CreateArray {
 
         System.out.println("Enter the required size of the array");
         int arraySize = scanner.nextInt();
-        int storageArray[] = new int [arraySize];
+        int [] storageArray = new int [arraySize];
 
         System.out.println("Enter the elements of the array one by one");
 
