@@ -6,6 +6,7 @@ public class Triangle {
     private double side2;
     private double side3;
 
+    //Setter methods
     public void setSide1(double side1) {
         this.side1 = side1;
     }
@@ -18,6 +19,7 @@ public class Triangle {
         this.side3 = side3;
     }
 
+    //Getter methods
     public double getSide1() {
         return side1;
     }
@@ -30,22 +32,20 @@ public class Triangle {
         return side3;
     }
 
-    private boolean isValid(){
-        if((side1 + side2 > side3) && (side1 + side3 > side2) && (side2 + side3 > side1)){
-            return true;
-        }else{
-            return false;
-        }
+    private boolean isValid (double side1, double side2, double side3){
+        return side1 + side2 > side3 && side1 + side3 > side2 && side2 + side3 > side1;
     }
 
-    public void areaTriangle (){
-            if(isValid()){
+    public double areaTriangle (){
+            double area;
+
+            if(isValid(side1,side2,side3)){
                 double p = (side1 + side2 + side3) / 2;
-                double areaTriangle = Math.sqrt(p*(p-side1)*(p-side2)*(p-side3));
-                System.out.println(areaTriangle);
+                area = Math.sqrt(p*(p-side1)*(p-side2)*(p-side3));
             }else{
                 System.out.println("Triangle is not valid");
-
+                area = 0.0D;
             }
+            return area;
     }
 }
