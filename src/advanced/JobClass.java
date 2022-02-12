@@ -15,8 +15,7 @@ class Member{
         System.out.println("Name : " + name + "\n" +
                            "Age : " + age + "\n" +
                            "Phone : " + phoneNumber + "\n" +
-                           "Adress : " + address + "\n"
-        );
+                           "Adress : " + address + "\n");
     }
 }
 

@@ -30,9 +30,11 @@ class house implements Building, Place{
 }
 
 class Ant1 implements BugInterface, Place{
+
     public void bugSize() {
         System.out.println("Small");
     }
+
     public void bugSound() {
         System.out.println("Tsss");
     }
