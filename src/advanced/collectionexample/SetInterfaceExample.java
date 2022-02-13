@@ -2,6 +2,7 @@ package advanced.collectionexample;
 
 import java.util.HashSet;
 import java.util.Iterator;
+import java.util.LinkedHashSet;
 import java.util.Set;
 
 public class SetInterfaceExample {
@@ -70,5 +71,21 @@ public class SetInterfaceExample {
         Set<Integer> difference = new HashSet<Integer>(intSet1);
         difference.removeAll(intSet2);
         System.out.println("Unique elements in intSet1 : " + difference);
+
+        //LinkedHashSet
+        Set<String> linkedHashSet = new LinkedHashSet<String>();
+        linkedHashSet.add("Latvia");
+        linkedHashSet.add("Estonia");
+        linkedHashSet.add("Finland");
+
+        linkedHashSet.add("Estonia");
+
+        System.out.println(linkedHashSet);
+
+        linkedHashSet.remove("Poland");
+        linkedHashSet.add("Lithuania");
+
+        System.out.println(linkedHashSet);
+
     }
 }

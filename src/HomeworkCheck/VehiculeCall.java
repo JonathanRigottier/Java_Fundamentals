@@ -16,7 +16,22 @@ public class VehiculeCall {
         System.out.println("Enter how many passengers will be in the vehicule :");
         int passengers = scanner.nextInt();
 
-        System.out.println("Will you turn on air conditioner ? y/n");
+        char input = 'p';
+        boolean airConditioner = false;
+
+        do {
+            System.out.println("Will you turn on air conditioner ? y/n");
+            input = scanner.next().charAt(0);
+
+        } while (input != 'y' && input != 'n');
+
+        if(input == 'y'){
+            airConditioner = true;
+        }else if(input == 'n'){
+            airConditioner = false;
+        }
+
+        /*System.out.println("Will you turn on air conditioner ? y/n");
         char input = scanner.next().charAt(0);
         boolean airConditioner = false;
 
@@ -27,6 +42,8 @@ public class VehiculeCall {
         }else {
             System.out.println("Please enter y or n : ");
         }
+
+         */
 
 
 
