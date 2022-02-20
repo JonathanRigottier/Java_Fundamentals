@@ -14,7 +14,7 @@ public class ExceptionExample {
             System.out.println("Array problems");
         }catch (Exception e){
             System.out.println("Something else");
-        } finally {
+        }finally {
             System.out.println("In the finally block");
         }
 

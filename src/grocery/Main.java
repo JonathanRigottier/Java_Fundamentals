@@ -56,7 +56,7 @@ public class Main {
 
     }
 
-    public static void printInstruction(){
+    private static void printInstruction(){
         System.out.println("\nPress");
         System.out.println("\t 0 - To print choice options");
         System.out.println("\t 1 - To print the list of grocery items");
@@ -67,17 +67,17 @@ public class Main {
         System.out.println("\t 6 - To quite the application");
     }
 
-    public static void addItem(){
+    private static void addItem(){
         System.out.println("Please enter item you want to add to the grocery list :");
         groceryList.addGroceryItem(scanner.nextLine());
     }
 
-    public static void removeItem(){
+    private static void removeItem(){
         System.out.println("Enter item name that you want to delete");
         groceryList.removeGroceryItem(scanner.nextLine());
     }
 
-    public static void modifyItem(){
+    private static void modifyItem(){
         System.out.println("Enter item number that you want to modify");
         int itemNo = scanner.nextInt();
         //Fix
@@ -87,7 +87,7 @@ public class Main {
         groceryList.modifyGroceryItem(itemNo-1,newItem);
     }
 
-    public static void searchForItem(){
+    private static void searchForItem(){
         System.out.println("Item to search for : ");
         String searchItem = scanner.nextLine();
         if(groceryList.onFile(searchItem)){

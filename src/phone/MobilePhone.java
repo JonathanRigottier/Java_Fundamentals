@@ -6,6 +6,7 @@ package phone;
 //updateContact
 
 import java.util.ArrayList;
+import java.util.Collections;
 
 public class MobilePhone {
     //Fields
@@ -68,9 +69,10 @@ public class MobilePhone {
     public void printContacts(){
         System.out.println("Contact list");
         for(int i = 0; i < myContacts.size(); i++){
-            System.out.println((i+1) + ". " + myContacts.get(i).getName() + " ->" + myContacts.get(i).getPhoneNumber());
+            System.out.println((i+1) + ". " + myContacts.get(i).getName() + " --> " + myContacts.get(i).getPhoneNumber());
         }
     }
+
 
     //Query Contact
     public Contact queryContact(String name){

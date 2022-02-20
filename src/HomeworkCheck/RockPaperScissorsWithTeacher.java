@@ -24,7 +24,7 @@ public class RockPaperScissorsWithTeacher {
         } else if (version == 2){
             System.out.println(rockPaperScissorsLizardSpock(player1, player2));
         }else{
-            System.out.println("Version was nto valid");
+            System.out.println("Version was not valid");
         }
 
     }
