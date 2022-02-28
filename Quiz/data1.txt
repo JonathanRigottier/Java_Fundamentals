@@ -1,3 +1,4 @@
+3
 Capital city of Australia?
 Canberra
 Sydney
@@ -22,3 +23,11 @@ Capital city of Estonia?
 Tallin
 Riga
 Helsinki
+Capital city of Ireland ?
+Dublin
+Cork
+Galway
+Capital city of Spain ?
+Madrid
+Barcelona
+Valencia

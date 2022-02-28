@@ -1,0 +1,41 @@
+4
+What is the population's size of Japan?
+126,5 millions
+88,6 millions
+148,7 millions
+152,8 millions
+What is the population's size of Germany?
+83,8 millions
+91,2 millions
+76,5 millions
+75,9 millions
+What is the population's size of the United Kingdom?
+67,9 millions
+82,3 millions
+58,3 millions
+56,8 millions
+What is the population's size of Canada?
+37,7 millions
+46,8 millions
+61,1 millions
+54,3 millions
+What is the population's size of Portugal?
+10,2 millions
+12,6 millions
+13,4 millions
+15,2 millions
+What is the population's size of Switzerland?
+8,6 millions
+10,1 millions
+12,6 millions
+13,8 millions
+What is the population's size of Greece ?
+10,7 millions
+5,4 millions
+15,9 millions
+21,5 millions
+What is the populaion's size of France ?
+67,4 millions
+81,2 millions
+88,4 millions
+58,7 millions

@@ -1,0 +1,17 @@
+3
+What is the population's size of London?
+8,98 millions
+12,69 millions
+14,78 millions
+What is the population's size of Tokyo?
+13,96 millions
+14,59 millions
+18,78 millions
+What is the population's size of New-York ?
+8,42 millions
+10,56 millions
+11,58 millions
+What is the population's size of Amsterdam ?
+1,16 million
+2,56 millions
+3,15 millions
