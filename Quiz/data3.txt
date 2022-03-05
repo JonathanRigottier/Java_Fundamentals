@@ -15,3 +15,11 @@ What is the population's size of Amsterdam ?
 1,16 million
 2,56 millions
 3,15 millions
+What is the population's size of Tallinn?
+0.4 million
+0.8 million
+1.2 million
+What is the population's size of Rigo?
+0.6 million
+0.9 million
+1.3 million
